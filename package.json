@@ -1,0 +1,170 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "remix-lib@latest",
+        "scope": null,
+        "escapedName": "remix-lib",
+        "name": "remix-lib",
+        "rawSpec": "latest",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/dily/remix-ide"
+    ]
+  ],
+  "_from": "remix-lib@latest",
+  "_id": "remix-lib@0.3.7",
+  "_inCache": true,
+  "_location": "/remix-lib",
+  "_nodeVersion": "9.11.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/remix-lib_0.3.7_1535454299639_0.07484655670443563"
+  },
+  "_npmUser": {
+    "name": "yann300",
+    "email": "yann@ethereum.org"
+  },
+  "_npmVersion": "5.6.0",
+  "_phantomChildren": {
+    "bignumber.js": "2.0.7",
+    "crypto-js": "3.1.8",
+    "eslint": "2.10.2",
+    "eslint-config-standard": "5.3.1",
+    "eslint-config-standard-jsx": "1.2.1",
+    "eslint-plugin-promise": "1.3.2",
+    "eslint-plugin-react": "5.2.2",
+    "eslint-plugin-standard": "1.3.3",
+    "standard-engine": "4.1.3",
+    "utf8": "2.1.1",
+    "xhr2": "0.1.4",
+    "xmlhttprequest": "1.8.0"
+  },
+  "_requested": {
+    "raw": "remix-lib@latest",
+    "scope": null,
+    "escapedName": "remix-lib",
+    "name": "remix-lib",
+    "rawSpec": "latest",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "/remix-analyzer",
+    "/remix-debug",
+    "/remix-solidity"
+  ],
+  "_resolved": "https://registry.npmjs.org/remix-lib/-/remix-lib-0.3.7.tgz",
+  "_shasum": "e4a90b7cc513a6ca514eda5f58130cae2ef52899",
+  "_shrinkwrap": null,
+  "_spec": "remix-lib@latest",
+  "_where": "/Users/dily/remix-ide",
+  "author": {
+    "name": "cpp-ethereum team"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "plugins": [
+            [
+              "fast-async",
+              {
+                "runtimePatten": null,
+                "compiler": {
+                  "promises": true,
+                  "es7": true,
+                  "noRuntime": true,
+                  "wrapAwait": true
+                }
+              }
+            ],
+            "transform-object-assign"
+          ]
+        }
+      ],
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/ethereum/remix/issues"
+  },
+  "contributors": [
+    {
+      "name": "Yann Levreau",
+      "email": "yann@ethdev.com"
+    },
+    {
+      "name": "Liana Husikyan",
+      "email": "liana@ethdev.com"
+    }
+  ],
+  "dependencies": {
+    "async": "^2.1.2",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babelify": "^7.3.0",
+    "ethereumjs-block": "^1.6.0",
+    "ethereumjs-tx": "^1.3.3",
+    "ethereumjs-util": "^5.1.2",
+    "ethereumjs-vm": "^2.3.3",
+    "ethers": "^3.0.15",
+    "fast-async": "^6.1.2",
+    "solc": "^0.4.13",
+    "standard": "^7.0.1",
+    "tape": "^4.6.0",
+    "web3": "git+https://github.com/phpxin/web3foraoa.git"
+  },
+  "description": "Ethereum IDE and tools for the web",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-yWYGmvpxrmkF1DWe8Bo79sYyy5zOo9UCjA3UEjrjg0FLhekgGIbwOOAAj0Lfayr581Ds07/mCYfx6oSaX/GpmQ==",
+    "shasum": "e4a90b7cc513a6ca514eda5f58130cae2ef52899",
+    "tarball": "https://registry.npmjs.org/remix-lib/-/remix-lib-0.3.7.tgz",
+    "fileCount": 49,
+    "unpackedSize": 210514,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbhSxcCRA9TVsSAnZWagAAOaYQAJHBYnHQnLEubn/SZHoD\nLlGU/Rn3wrYnwTTDnIdDGm5oesVsnOK29z4akrND3I90rnzbzfwv+4EBqJF5\n1bz4YX7ni7EmAM0He9JgAqos4yW0E4S0XfaLV5tdSrSZH7P2+dkMzzasODnc\nTa648JXtU76nN1QUfEuAcMssG8CTBUE53nzcCGnaFnjIhmujkYFus9EOQnxZ\nLhIx91Wu94CKBpyFeIDVZ2PvIsA46sCJcPAX4OchzMezYCLV6HQft3uz+8ic\nL4SfqYflbs7nnGwcylvUoQa7ZOpW+PfGt19zEsLVwlDB2fTiNvmeh8vlo+Ed\nh1K1Iiwx0sX+q/gW11I7yh6WgF/uccr61NwtZ6Rw0eMozfI/b7BaNk2szb08\nKFVYbcG3w7EtVkU7D8S0hOE0vRmbSHIyPWB93CEoufnaSk4lqHZFu2u2NpLo\ncNAkMZWr5AY2GVoipbZXz+klnqVjYBNG0vwOXH6E8skUFRZ/imC7QcHNBQLi\n3YJrqa6LmXBtpsGVLs1EvW8dRxBpFH4mYs683qmcVbuHiOn74D8t9eR1CiKb\n9jjYm/F9GkpzdOaru5Mb3potRXxNfw/+y7NaXkLjp+++rAHKvKSHj32IKMft\ndtaleqkVrLLqUm/ueB+qLDNghjdYF2kw8kNBvSuQZsTd1OjVyDgURnUpbr7d\n8DTT\r\n=2bHg\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "homepage": "https://github.com/ethereum/remix#readme",
+  "license": "MIT",
+  "main": "./index.js",
+  "maintainers": [
+    {
+      "name": "yann300",
+      "email": "yann@ethereum.org"
+    }
+  ],
+  "name": "remix-lib",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethereum/remix.git"
+  },
+  "scripts": {
+    "test": "standard && tape ./test/tests.js"
+  },
+  "standard": {
+    "ignore": [
+      "node_modules/*",
+      "build/*",
+      "test/resources/*"
+    ],
+    "parser": "babel-eslint"
+  },
+  "version": "0.3.7"
+}
